@@ -100,11 +100,11 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',  # Location of static files in development
     BASE_DIR / 'assets',  # Shared template assets (backgrounds, fonts, presets)
 ]
-STATIC_ROOT = BASE_DIR / 'staticfiles'  # Collection location for files in production
+STATIC_ROOT = BASE_DIR / 'public' / 'staticfiles'  # Collection location for files in production
 
 # URL address for uploaded files (images, etc.)
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = BASE_DIR / 'public' / 'media'
 
 # -----------------------------
 # Template & Rendering extras
