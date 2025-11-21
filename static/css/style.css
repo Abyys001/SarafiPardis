@@ -474,7 +474,7 @@ main {
 }
 
 .metric-card .card-text {
-    color: var(--color-text-muted);
+    color: #ffffff
     font-size: 0.95rem;
 }
 
